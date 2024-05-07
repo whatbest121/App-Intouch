@@ -1,0 +1,6 @@
+body {
+    background-image: url('background.jpg'); /* เปลี่ยนเป็น URL ของรูปภาพพื้นหลังของคุณ */
+    background-size: cover; /* ปรับขนาดรูปภาพให้เต็มหน้าจอ */
+    background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่กึ่งกลาง */
+    /* background-repeat: no-repeat; */ /* ปิดการทำซ้ำรูปภาพ */
+}
