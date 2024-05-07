@@ -3,7 +3,7 @@
 
 ข้อ (5)  SELECT * FROM Customers
 INNER JOIN Order ON Customers.ID = Order.ID;
-
+ข้อ (6) 6.1 https://ibb.co/YQF7gv2
 ข้อ (7) ใช้ .c 
 #include <stdio.h>
 
