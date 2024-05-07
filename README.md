@@ -15,7 +15,6 @@ INNER JOIN Order ON Customers.ID = Order.ID;
 int Calculate(int x);
 
 int main() {
-
     int water_tank = 5832;
     
     float y = Calculate(water_tank);
@@ -23,7 +22,6 @@ int main() {
     printf("จำนวนน้ำที่เหลือในถังหลังจาก 7 วัน: %d ลิตร\n", y);
     
     return 0;
-    
 }
 
 int Calculate(int x){
@@ -46,14 +44,21 @@ int Calculate(int x){
 #include <stdio.h>
 
 int main() {
+
     int rows, i, j;
+    
     printf("Enter number of rows: ");
+    
     scanf("%d", &rows);
+    
     for (i = 1; i <= rows; i++) {
+    
         for (j = 1; j < i; j++) {
+        
             printf(" ");
         }
         for (j = i; j <= rows; j++) {
+        
             printf("* ");
         }
         printf("\n");
